@@ -1,0 +1,11 @@
+﻿  opengltest.cpp
+c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(100): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\opengltest.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\opengltest.cpp(121): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\opengltest.cpp(125): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\opengltest.cpp(148): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\opengltest.cpp(267): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\opengltest.cpp(273): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  opengltest.vcxproj -> C:\Users\bilsen\source\repos\opengltest\Debug\opengltest.exe
