@@ -193,6 +193,7 @@ public:
 			visibleCircle.draw(circleHandle, shaderHandle, true);
 		else
 		*/
+		glLineWidth(visibleCircle.r / 200.0f + 1.0f);
 		visibleCircle.draw(circleHandle, shaderHandle, false);
 		for (SuperCircle &child : children) {
 			child.draw();
@@ -202,8 +203,8 @@ public:
 
 	void moveMiddle(std::complex<float> to) {
 		float r = abs(to - visibleCircle.pos);
-		if (r > visibleCircle.r - 15.0f) {
-			r = visibleCircle.r - 15.0f;
+		if (r > visibleCircle.r * 9 / 10) {
+			r = visibleCircle.r * 9 / 10; 
 		}
 
 		std::complex<float> rotation = ((to - visibleCircle.pos) / abs(to - visibleCircle.pos));

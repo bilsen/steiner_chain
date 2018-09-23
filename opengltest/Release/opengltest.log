@@ -9,9 +9,9 @@ c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(148): warni
 c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(273): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(279): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Generating code
-  54 of 604 functions ( 8.9%) were compiled, the rest were copied from previous compilation.
+  3 of 604 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    4 functions had inline decision re-evaluated but remain unchanged
+    2 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
 Steiner Chain.obj : warning LNK4020: a type record in 'c:\users\bilsen\source\repos\opengltest\opengltest\release\vc141.pdb' is corrupted; some symbols and types may not be accessible from the debugger
   opengltest.vcxproj -> C:\Users\bilsen\source\repos\opengltest\Release\Steiner Chain.exe
