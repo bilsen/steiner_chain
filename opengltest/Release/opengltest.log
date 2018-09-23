@@ -9,7 +9,7 @@ c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(169): warni
 c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(275): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(281): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Generating code
-  4 of 606 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+  0 of 606 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
