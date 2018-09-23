@@ -1,7 +1,6 @@
 # steiner_chain
 Interactive visualization of 'Steiners Porism'
 
-Use "Release" instead of "Debug" for best performance
 
 ## Controls
 
@@ -28,3 +27,5 @@ The reason this is done instead of just inverting the midpoint is because the mi
 an exact solution would include 6th powers and such. (wolfram alpha solution of
 [a system of equations obtained by these equations](https://en.wikipedia.org/wiki/Inversive_geometry#Transforming_circles_into_circles) )
 
+
+Have fun!
