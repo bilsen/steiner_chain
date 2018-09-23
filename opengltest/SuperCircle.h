@@ -88,16 +88,17 @@ public:
 		setMidRatio();
 	}
 
-	void moveInversionTo(std::complex<float> position) {
-		translateInversion(position - inversionToConcentric.pos);
-	}
-
-	void translateInversion(std::complex<float> translation) {
-		inversionToConcentric.pos += translation;
-
-	}
 	void setMidRatio() {
 		midRatio = (1.0f - sinf(M_PI / float(children.size() - 1))) / (1.0f + sinf(M_PI / float(children.size() - 1)));
+	}
+	void setInversion(Inversion newInversion) {
+		
+		
+		for (SuperCircle & child : children) {
+			child.setCircle(newInversion(inversionToConcentric(child.circle)));
+			child.inversionToConcentric = newInversion;
+		}
+		inversionToConcentric = newInversion;
 	}
 	void setVisibleCircle(std::complex<float> position, float radius) {
 		visibleCircle.pos = position;
@@ -111,15 +112,20 @@ public:
 			child.setVisibleCircle(position + radius * child.pos, radius * child.r);
 		}
 	}
-
-	void move(std::complex<float> rotation) {
+	void syncMiddle() {
+		for (SuperCircle &child : children) {
+			child.setInversion(inversionToConcentric);
+		}
+	}
+	void move(std::complex<float> rotation, bool sync_middle = false) {
 		if (leaf)
 			return;
 		//Optimization
 		if (visibleCircle.r < 1.0f)
 			return;
 		//
-
+		if (sync_middle)
+			syncMiddle();
 		Circle invertedOuter = inversionToConcentric(Circle());
 
 		setDistanceFromInvertedCenter();
@@ -151,7 +157,8 @@ public:
 			angleVector *= rotationStep;
 		}
 	}
-	void move(float angle) { move(cosf(angle) + 1.0if * sinf(angle)); }
+	
+	void move(float angle, bool sync_middle = false) { move(cosf(angle) + 1.0if * sinf(angle), sync_middle); }
 	void createRecursiveChildren(int levels, int perLevel, bool mid) {
 
 		if (levels == 0) {
@@ -200,7 +207,8 @@ public:
 		}
 
 	}
-
+	
+	
 	void moveMiddle(std::complex<float> to) {
 		float r = abs(to - visibleCircle.pos);
 		if (r > visibleCircle.r * 9 / 10) {
@@ -280,6 +288,6 @@ public:
 		testInversion.pos -= delTranslate;
 		inversionToConcentric = testInversion;
 		//cout << abs(children[0].pos) << " " << desiredNormalizedDistance << endl;
-
+		
 	}
 };

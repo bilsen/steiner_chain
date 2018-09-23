@@ -1,17 +1,16 @@
 ﻿  Steiner Chain.cpp
 c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(100): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(135): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(121): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(125): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(148): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(273): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(279): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(169): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(275): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(281): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Generating code
-  3 of 604 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+  4 of 606 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    2 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-Steiner Chain.obj : warning LNK4020: a type record in 'c:\users\bilsen\source\repos\opengltest\opengltest\release\vc141.pdb' is corrupted; some symbols and types may not be accessible from the debugger
   opengltest.vcxproj -> C:\Users\bilsen\source\repos\opengltest\Release\Steiner Chain.exe
