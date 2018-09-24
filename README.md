@@ -1,5 +1,5 @@
 # steiner_chain
-Interactive visualization of 'Steiners Porism'
+Interactive visualization of '[Steiner's Porism](https://en.wikipedia.org/wiki/Steiner_chain)'
 
 
 ## Controls
@@ -12,9 +12,13 @@ press DEL when holding a circle to delete it
 
 press 1-6 to create recursive circles with 1-6 layers
 
-press 0 to clear
+press 0 to clear, space to pause and arrow keys to control speed
 
 press L to lock mid circles to root for true recursion
+
+## About the project
+
+This project was made in part to learn open gl (most of the boilerplate opengl code is copied from https://learnopengl.com/Getting-started/Creating-a-window) and in part to learn better object oriented programming in c++.
 
 ## Main ideas
 
