@@ -1,11 +1,14 @@
-﻿  opengltest.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (opengltest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  glad.c
+  Steiner Chain.cpp
 c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(100): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\opengltest.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\opengltest.cpp(121): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\opengltest.cpp(125): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\opengltest.cpp(148): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\opengltest.cpp(267): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\bilsen\source\repos\opengltest\opengltest\opengltest.cpp(273): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  opengltest.vcxproj -> C:\Users\bilsen\source\repos\opengltest\Debug\opengltest.exe
+c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\supercircle.h(135): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(121): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(125): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(169): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(275): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\bilsen\source\repos\opengltest\opengltest\steiner chain.cpp(281): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  opengltest.vcxproj -> C:\Users\bilsen\source\repos\opengltest\Debug\Steiner Chain.exe

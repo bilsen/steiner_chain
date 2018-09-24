@@ -124,7 +124,7 @@ public:
 		if (visibleCircle.r < 1.0f)
 			return;
 		//
-		if (sync_middle)
+		if (sync_middle && visibleCircle.r > 10.0f)
 			syncMiddle();
 		Circle invertedOuter = inversionToConcentric(Circle());
 
@@ -145,7 +145,7 @@ public:
 				iCurrentCircle.pos = invertedOuter.pos;
 				iCurrentCircle.r = invertedOuter.r * getMidRatio();
 				child.setCircle(inversionToConcentric(iCurrentCircle));
-				child.move(conj(rotation));
+				child.move(conj(rotation), sync_middle);
 				continue;
 			}
 
@@ -153,7 +153,7 @@ public:
 			Circle newCircle = inversionToConcentric(iNewCircle);
 
 			child.setCircle(newCircle);
-			child.move(conj(rotation));
+			child.move(conj(rotation), sync_middle);
 			angleVector *= rotationStep;
 		}
 	}
